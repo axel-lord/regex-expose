@@ -1,0 +1,53 @@
+---
+AccessModifierOffset: -4
+BasedOnStyle: 'Microsoft'
+ColumnLimit: 100
+IndentWidth: '4'
+NamespaceIndentation: None
+TabWidth: '4'
+UseTab: Never
+AlignAfterOpenBracket : BlockIndent
+DerivePointerAlignment: false
+PointerAlignment: Left
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveDeclarations: Consecutive
+AlignConsecutiveMacros: Consecutive
+AlignConsecutiveBitFields: Consecutive
+AlignEscapedNewlines: Left
+AlignOperands: AlignAfterOperator
+AlignTrailingComments: true
+AllowShortLambdasOnASingleLine: Empty
+BinPackArguments: false
+BinPackParameters: false
+SeparateDefinitionBlocks: Always
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterClass: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterStruct: true
+  AfterUnion: true
+  AfterExternBlock: false
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeLambdaBody: true
+  BeforeWhile: true
+  IndentBraces: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+
+BreakConstructorInitializers: AfterColon
+BreakBeforeTernaryOperators: true
+BreakInheritanceList: AfterColon
+EmptyLineAfterAccessModifier: Never
+EmptyLineBeforeAccessModifier: LogicalBlock
+FixNamespaceComments: true
+IncludeBlocks: Regroup
+ReflowComments: false
+UseCRLF: false
+AlwaysBreakAfterReturnType: TopLevel
+...
